@@ -26,7 +26,7 @@ class CarsController (
         return ResponseEntity(brandRepository.insert(brand), HttpStatus.OK)
     }
 
-    @PostMapping("/brandByCountry")
+    @GetMapping("/brandByCountry")
     fun findBrandByCountry(@RequestBody brandDto: BrandDto): ResponseEntity<List<Brand>> {
         val brand: Brand = brandMapper.map(brandDto)
         return ResponseEntity(brandRepository.findBrandByCountry(brand.country), HttpStatus.OK)
