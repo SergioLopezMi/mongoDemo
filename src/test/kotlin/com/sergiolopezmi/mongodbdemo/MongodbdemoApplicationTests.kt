@@ -1,4 +1,4 @@
-package com.slergiolopezmi.mongodbdemo
+package com.sergiolopezmi.mongodbdemo
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

@@ -1,4 +1,4 @@
-package com.slergiolopezmi.mongodbdemo
+package com.sergiolopezmi.mongodbdemo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
